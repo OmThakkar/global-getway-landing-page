@@ -31,7 +31,7 @@
 
 body,
 html {
-  @apply scroll-pt-10 scroll-smooth text-stone-700;
+  @apply scroll-pt-16 scroll-smooth text-stone-700;
 }
 
 /* Typography  */
