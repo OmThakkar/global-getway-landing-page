@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./assets/fonts/GeneralSans-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary-50: #eef8ff;
+  --color-primary-100: #dcf1ff;
+  --color-primary-200: #b2e4ff;
+  --color-primary-300: #6dd0ff;
+  --color-primary-400: #20b8ff;
+  --color-primary-500: #009fff;
+  --color-primary-600: #007edf;
+  --color-primary-700: #0063b4;
+  --color-primary-800: #005594;
+  --color-primary-900: #003a66;
+  --color-primary-950: #002c51;
+
+  --font-text: GeneralSans, sans-serif;
+  --font-heading: GeneralSans, sans-serif;
+}
+
+* {
+  @apply font-text;
+}
+
+body,
+html {
+  @apply scroll-pt-10 scroll-smooth text-stone-700;
+}
+
+/* Typography  */
+
+h1,
+h2,
+h3 {
+  @apply font-heading leading-tight font-semibold;
+}
+
+h1 {
+  @apply text-[32px] lg:text-[48px];
+}
+
+h2 {
+  @apply text-[24px] lg:text-[32px];
+}
+
+h3 {
+  @apply text-[18px] lg:text-[20px];
+}
+
+p {
+  @apply text-[14px] lg:text-[16px];
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+label {
+  @apply text-xs font-medium tracking-wide;
+}
+
+input {
+  @apply w-full rounded-lg border border-stone-300 px-3 py-1.5 text-sm font-medium text-stone-900 placeholder:text-stone-500 focus:outline-none;
+}
+
+.input-group {
+  @apply flex flex-col gap-2;
+}
+
+.button {
+  @apply flex cursor-pointer items-center gap-3 rounded-md px-4 py-2 font-medium;
+}
+
+.primary-button {
+  @apply bg-primary-900 hover:bg-primary-900/80 text-white transition-colors duration-300 ease-in-out;
+}
+
+.primary-button-invert {
+  @apply text-primary-950 bg-white transition-colors duration-300 ease-in-out hover:bg-white/80;
+}
+
+.navbar-container {
+  @apply mx-auto flex w-full items-center justify-between px-4 py-3 md:px-6 lg:max-w-10/11 lg:px-8;
+}
+
+.navbar-links {
+  @apply hidden items-center gap-6 lg:flex;
+}
+
+.navbar-link {
+  @apply text-sm font-medium text-white transition-colors duration-300 ease-in-out hover:underline hover:underline-offset-4;
+}
+
+.section-container {
+  @apply mx-auto flex w-full flex-col gap-8 px-4 py-12 md:gap-12 md:px-6 lg:max-w-10/11 lg:px-8 lg:py-16 xl:py-20;
+}
+
+.grid-layout {
+  @apply grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-12;
+}
+
+.card {
+  @apply flex flex-col gap-4;
+}
+
+.footer-link {
+  @apply flex items-center gap-2 text-sm font-medium text-white transition-colors duration-300 ease-in-out hover:underline hover:underline-offset-4;
+}
