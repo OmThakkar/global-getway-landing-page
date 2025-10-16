@@ -32,15 +32,18 @@ const Testimonials = () => {
         </div>
       </div>
       <p>{testimonial.testimonial}</p>
-      <div className="flex items-center gap-2">
-        <div className="h-8 w-8 overflow-hidden rounded-full">
-          <img
-            src={testimonial.image}
-            alt={testimonial.name}
-            className="h-full w-full object-cover"
-          />
+      <div className="mt-4 flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <div className="h-8 w-8 overflow-hidden rounded-full border border-stone-100 shadow-sm">
+            <img
+              src={testimonial.image}
+              alt={testimonial.name}
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <span className="text-sm font-medium">{testimonial.name}</span>
         </div>
-        <span className="text-sm font-medium">{testimonial.name}</span>
+        <span className="text-xs font-medium text-stone-600">{testimonial.date}</span>
       </div>
     </div>
   );

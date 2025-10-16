@@ -142,7 +142,7 @@ const Accordion = ({
           >
             {/* Header */}
             <button
-              className={`flex w-full items-center justify-between gap-4 p-4 text-left ${isClickable ? "focus:outline-none" : "cursor-default"} ${showBorder ? "border border-stone-100" : ""} ${isOpen && showBorder ? "border-b-0" : ""} transition-colors duration-200 ${headerClassName} `}
+              className={`flex w-full rounded-xl items-center justify-between gap-4 p-4 text-left ${isClickable ? "focus:outline-none" : "cursor-default"} ${showBorder ? "border border-stone-100" : ""} ${isOpen && showBorder ? "border-b-0 rounded-b-none" : ""} transition-colors duration-200 ${headerClassName} `}
               onClick={() => handleToggle(item.id)}
               disabled={!isClickable}
               role="tab"
@@ -165,13 +165,13 @@ const Accordion = ({
 
             {/* Content */}
             <div
-              className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"} `}
+              className={`overflow-hidden  transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"} `}
               role="tabpanel"
               aria-labelledby={`accordion-header-${item.id}`}
               id={`accordion-content-${item.id}`}
             >
               <div
-                className={`p-4 ${showBorder ? "border-r border-b border-l border-stone-100" : ""} ${contentClassName} `}
+                className={`p-4 rounded-b-xl ${showBorder ? "border-r border-b border-l border-stone-100" : ""} ${contentClassName} `}
               >
                 {typeof item.answer === "string" ? (
                   <p className="text-stone-700">{item.answer}</p>

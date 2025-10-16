@@ -117,7 +117,7 @@ const WhatsAppButton = () => {
       >
         {/* Popup Menu */}
         {isOpen && (
-          <div className="animate-fade-in absolute right-0 bottom-14 w-68 rounded-xl bg-white p-4 shadow-sm lg:w-96">
+          <div className="animate-fade-in absolute right-0 bottom-14 w-72 rounded-xl bg-white p-4 shadow-sm lg:w-96">
             {step === "initial" && (
               <div className="flex flex-col gap-4">
                 <span className="ps-1.5 text-base font-semibold">

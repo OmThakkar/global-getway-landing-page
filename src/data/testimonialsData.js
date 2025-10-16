@@ -4,15 +4,15 @@ export const testimonialsData = [
         name: "Rahul Kapoor",
         testimonial: "The visa process was incredibly smooth and efficient. I couldn't be happier with the service I received. They handled everything professionally and kept me informed throughout.",
         rating: 5,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=RK",
     },
     {
         id: 2,
-        name: "Priya Sharma", 
+        name: "Priya Sharma",
         testimonial: "Outstanding support from start to finish. Would definitely recommend to anyone looking for visa assistance.",
         rating: 4,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=PS",
     },
     {
@@ -20,7 +20,7 @@ export const testimonialsData = [
         name: "Amit Patel",
         testimonial: "They made what seemed like a complex process very straightforward. The team was always available to answer my questions and guide me through each step. Really appreciate their expertise and dedication.",
         rating: 3,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=AP",
     },
     {
@@ -28,7 +28,7 @@ export const testimonialsData = [
         name: "Neha Verma",
         testimonial: "Quick and reliable service. Got my visa without any hassle.",
         rating: 5,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=NV",
     },
     {
@@ -36,7 +36,7 @@ export const testimonialsData = [
         name: "Sanjay Mehta",
         testimonial: "The team went above and beyond to ensure my visa application was successful. Their attention to detail and prompt communication made the entire process stress-free. I'm extremely satisfied with their service and would highly recommend them to anyone seeking visa assistance.",
         rating: 4,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=SM",
     },
     {
@@ -44,7 +44,7 @@ export const testimonialsData = [
         name: "Meera Singh",
         testimonial: "Professional and efficient service. Worth every penny.",
         rating: 3,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=MS",
     },
     {
@@ -52,7 +52,7 @@ export const testimonialsData = [
         name: "Vikram Malhotra",
         testimonial: "Excellent service and guidance throughout my visa application process. The team was very knowledgeable and helped me avoid potential pitfalls.",
         rating: 3,
-        date: "2021-01-01",
+        date: "1 July 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=VM",
     },
     {
@@ -60,7 +60,7 @@ export const testimonialsData = [
         name: "Anita Desai",
         testimonial: "I was impressed by how quickly they processed my application. Their expertise in handling visa applications is evident in their service quality.",
         rating: 3,
-        date: "2021-01-01",
+        date: "1 August 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=AD",
     },
     {
@@ -68,7 +68,7 @@ export const testimonialsData = [
         name: "Rajesh Kumar",
         testimonial: "Very satisfied with the service. The team was professional and helped me get my visa without any complications.",
         rating: 3,
-        date: "2021-01-01",
+        date: "1 August 2025",
         image: "https://placehold.co/400x250/FFFFFF/000000?text=RK",
     },
 ];
