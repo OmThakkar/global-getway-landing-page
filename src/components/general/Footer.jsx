@@ -4,7 +4,7 @@ import {
   servicesData,
   followUsData,
   legalData,
-} from "../../data/FooterData";
+} from "../../data/footerItemsData";
 
 const Footer = () => {
   return (

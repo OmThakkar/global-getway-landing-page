@@ -1,5 +1,4 @@
 import React from "react";
-import { Phone, Mail } from "lucide-react";
 
 const CallToAction = () => {
   return (
