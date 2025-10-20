@@ -15,7 +15,7 @@ const SectionHeader = ({
           : align === "left" ? "items-start" : "items-center"
       } ${className}`}
     >
-      <span className="text-primary-800 text-xs md:text-sm font-semibold tracking-wider uppercase">
+      <span className="text-primary-500 text-xs md:text-sm font-semibold tracking-wider uppercase">
         {subheading}
       </span>
       <h2

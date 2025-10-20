@@ -38,7 +38,7 @@ const HowItWorks = () => {
                   <lord-icon
                     src={`https://cdn.lordicon.com/${item.icon}.json`}
                     trigger="hover"
-                    colors="primary:##030712 ,secondary:#005594"
+                    colors="primary:#030712 ,secondary:#C29933"
                     style={{ width: "60px", height: "60px" }}
                   />
                 </div>

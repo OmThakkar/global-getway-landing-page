@@ -24,7 +24,7 @@ const Services = () => {
             ))}
             <a
               href="tel:+919876543210"
-              className="button primary-button md:mt-4 mt-2 w-fit text-sm md:text-base"
+              className="button primary-button md:mt-4 mt-2 w-fit"
             >
               {item.type === "Travel Package"
                 ? "Enquire Now For Your Package"
@@ -35,7 +35,7 @@ const Services = () => {
           <div
             className={`grid grid-cols-2 grid-rows-2 gap-2 ${item.id % 2 === 0 ? "md:order-first" : ""}`}
           >
-            <div className="col-span-2 row-span-2 md:col-span-1 h-48 w-full rounded-lg overflow-hidden md:h-[400px]">
+            <div className="col-span-2 row-span-2 md:col-span-1 h-64 w-full rounded-lg overflow-hidden md:h-[400px]">
               <img
                 src={item.images[0]}
                 alt={item.heading}

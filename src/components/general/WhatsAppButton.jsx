@@ -96,7 +96,7 @@ const WhatsAppButton = () => {
       messageBody = `Hello, this is ${userName} from ${userLocation} and want to know about visa application`;
     }
 
-    const whatsappUrl = `https://wa.me/917448158105?text=${encodeURIComponent(messageBody)}`;
+    const whatsappUrl = `https://wa.me/919112377799?text=${encodeURIComponent(messageBody)}`;
     window.open(whatsappUrl, "_blank");
 
     // Reset and close
@@ -113,11 +113,11 @@ const WhatsAppButton = () => {
       )}
       <div
         ref={containerRef}
-        className="fixed right-4 bottom-4 z-50 lg:right-6 lg:bottom-6"
+        className="fixed right-4 lg:right-6 bottom-[72px] z-50"
       >
         {/* Popup Menu */}
         {isOpen && (
-          <div className="animate-fade-in absolute right-0 bottom-14 w-72 rounded-xl bg-white p-4 shadow-sm lg:w-96">
+          <div className="animate-fade-in absolute right-0 bottom-16 w-72 rounded-xl bg-white p-4 shadow-sm lg:w-96">
             {step === "initial" && (
               <div className="flex flex-col gap-4">
                 <span className="ps-1.5 text-base font-semibold">
@@ -209,9 +209,9 @@ const WhatsAppButton = () => {
           }`}
         >
           {isOpen ? (
-            <IoClose className="h-6 w-6" />
+            <IoClose className="h-8 w-8" />
           ) : (
-            <FaWhatsapp className="h-6 w-6" />
+            <FaWhatsapp className="h-8 w-8" />
           )}
         </button>
       </div>

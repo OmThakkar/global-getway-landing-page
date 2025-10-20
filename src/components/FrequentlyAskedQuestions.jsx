@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeader from "./general/SectionHeader";
 import Accordion from "./general/Accordion";
 import { faqsData } from "../data/faqsData";
+import faqsImage from "../assets/images/faq.webp"
 
 const FAQs = () => {
   return (
@@ -15,7 +16,7 @@ const FAQs = () => {
       <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 lg:gap-8">
         <div className="h-full max-h-80 lg:sticky lg:top-32 lg:max-h-[500px] rounded-xl overflow-hidden">
           <img
-            src="https://images.pexels.com/photos/3787840/pexels-photo-3787840.jpeg"
+            src={faqsImage}
             alt="FAQs Image"
             className="h-full w-full object-cover"
           />

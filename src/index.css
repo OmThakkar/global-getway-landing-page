@@ -9,17 +9,17 @@
 }
 
 @theme {
-  --color-primary-50: #eef8ff;
-  --color-primary-100: #dcf1ff;
-  --color-primary-200: #b2e4ff;
-  --color-primary-300: #6dd0ff;
-  --color-primary-400: #20b8ff;
-  --color-primary-500: #009fff;
-  --color-primary-600: #007edf;
-  --color-primary-700: #0063b4;
-  --color-primary-800: #005594;
-  --color-primary-900: #003a66;
-  --color-primary-950: #002c51;
+  --color-primary-50: #fcf8ee;
+  --color-primary-100: #f6ebcf;
+  --color-primary-200: #ecd79b;
+  --color-primary-300: #e3bd66;
+  --color-primary-400: #dca743;
+  --color-primary-500: #d38a2d;
+  --color-primary-600: #bc6c25;
+  --color-primary-700: #9b4e22;
+  --color-primary-800: #7f3f21;
+  --color-primary-900: #69341e;
+  --color-primary-950: #3b1a0d;
 
   --font-text: GeneralSans, sans-serif;
   --font-heading: GeneralSans, sans-serif;
@@ -67,7 +67,7 @@ label {
 }
 
 input {
-  @apply w-full rounded-lg border border-stone-300 px-3 py-1.5 text-sm font-medium text-stone-900 placeholder:text-stone-500 focus:outline-none;
+  @apply w-full rounded-lg border border-stone-300 px-3 py-1.5 text-[14px] font-medium text-stone-900 placeholder:text-stone-500 focus:outline-none;
 }
 
 .input-group {
@@ -75,15 +75,15 @@ input {
 }
 
 .button {
-  @apply flex cursor-pointer items-center gap-3 rounded-xl px-4 py-2 font-medium;
+  @apply flex cursor-pointer items-center gap-3 rounded-lg px-4 py-2 font-medium;
 }
 
 .primary-button {
-  @apply bg-primary-900 hover:bg-primary-900/80 text-white transition-colors duration-300 ease-in-out;
+  @apply bg-primary-600 hover:bg-primary-500 text-white transition-colors duration-300 ease-in-out;
 }
 
 .primary-button-invert {
-  @apply text-primary-950 bg-white transition-colors duration-300 ease-in-out hover:bg-white/80;
+  @apply text-primary-950 bg-white transition-colors duration-300 ease-in-out hover:bg-primary-50;
 }
 
 .navbar-container {
