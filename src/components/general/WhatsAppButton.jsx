@@ -113,7 +113,7 @@ const WhatsAppButton = () => {
       )}
       <div
         ref={containerRef}
-        className="fixed right-4 lg:right-6 bottom-[72px] z-50"
+        className="fixed right-4 lg:right-6 bottom-20 z-50"
       >
         {/* Popup Menu */}
         {isOpen && (

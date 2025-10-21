@@ -48,7 +48,7 @@ const HowItWorks = () => {
                 </div>
               </div>
               {index < HowItWorksData.length - 1 && (
-                <div className="col-span-8 flex rotate-120 items-center justify-center lg:col-span-1 lg:rotate-30 p-8 md:p-6">
+                <div className="col-span-8 flex rotate-120 items-center justify-center lg:col-span-1 lg:rotate-30 p-8 md:p-6 tex">
                   <ArrowIcon />
                 </div>
               )}
