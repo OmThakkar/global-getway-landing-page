@@ -21,7 +21,7 @@ const PopularDestinations = () => {
             responsive={true}
           />
           <p className="text-stone-600 max-w-5xl">
-            Explore the world with Visa Extent - your trusted partner for Dubai
+            Explore the world with Global Getway - your trusted partner for Dubai
             Visit and Tourist Visas. Whether you're planning a short getaway or
             a long vacation, we make the visit visa process simple, fast, and
             hassle-free. From documentation to approval, our experts ensure a
