@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 right-0 left-0 z-50 bg-white backdrop-blur-sm">
       <div className="navbar-container">
-        <div className="h-12 md:h-14 w-auto overflow-hidden lg:h-16">
+        <div className="h-14 md:h-16 w-auto overflow-hidden lg:h-16">
           <img src={logo} alt="Global Getway Logo" className="h-full" />
         </div>
 
