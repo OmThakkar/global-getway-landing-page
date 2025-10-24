@@ -7,18 +7,28 @@ const PopularDestinations = () => {
   const handleEnquiry = (destination) => {
     const message = `I want to know about ${destination}. Can you please provide me the details?`;
     const whatsappUrl = `https://wa.me/919112377799?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
     <section className="bg-primary-50/50" id="popularDestinations">
       <div className="section-container">
-        <SectionHeader
-          subheading="Popular Destinations"
-          heading="Most Explored Places In Dubai"
-          align="left"
-          responsive={true}
-        />
+        <div className="flex flex-col gap-4">
+          <SectionHeader
+            subheading="Popular Destinations"
+            heading="Most Explored Places In Dubai"
+            align="left"
+            responsive={true}
+          />
+          <p className="text-stone-600 max-w-5xl">
+            Explore the world with Visa Extent - your trusted partner for Dubai
+            Visit and Tourist Visas. Whether you're planning a short getaway or
+            a long vacation, we make the visit visa process simple, fast, and
+            hassle-free. From documentation to approval, our experts ensure a
+            smooth experience so you can focus on creating unforgettable
+            memories in Dubai.
+          </p>
+        </div>
         <div className="grid-layout">
           {popularDestinationsData.map((destination) => (
             <div key={destination.id} className="card">

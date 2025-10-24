@@ -138,7 +138,7 @@ const Accordion = ({
         return (
           <div
             key={item.id}
-            className={` ${showBorder && index > 0 ? "border-t border-stone-100" : ""} ${showShadow ? "shadow-sm" : ""} ${itemClassName} `}
+            className={`rounded-xl ${showBorder && index > 0 ? "border-t border-stone-100" : ""} ${showShadow ? "shadow-sm" : ""} ${itemClassName} `}
           >
             {/* Header */}
             <button
