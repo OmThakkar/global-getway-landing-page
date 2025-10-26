@@ -20,16 +20,15 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 from-black/70 via-black/50 to-transparent md:bg-transparent md:bg-gradient-to-tr" />
       <div className="section-container relative z-0 w-full">
         <div className="flex max-w-3xl flex-col items-start gap-6">
-          <h1>Get Your Tourist Visa Approved Fast & Hassle-Free!</h1>
+          <h1>Trusted Visa Consultation in Dubai</h1>
           <p>
-            Trusted Visa Consultants in Dubai — We Help You Visit 20+ Countries
-            with Ease.
+          We offer professional consultation and document support for individuals and businesses in Dubai.
           </p>
           <button
             className="button primary-button-invert"
             onClick={handleApplyForVisa}
           >
-            Apply For Your Visa Now
+             Book a Free Consultation
             <MoveRight className="h-4 w-4" />
           </button>
         </div>

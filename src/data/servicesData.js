@@ -9,34 +9,30 @@ import visa3 from "../assets/images/sections/visa3.webp"
 export const servicesData = [
   {
     id: 1,
-    type: "Travel Package",
-    heading: "Explore the World",
-    subHeading: "Tailored travel experiences for every adventurer",
+    type: "Consultancy",
+    heading: "About Our Consultancy",
     images: [
       travel1,
       travel2,
       travel3
     ],
     paragraphs: [
-      "Our travel packages are designed to offer seamless experiences for every type of traveler. From sightseeing tours to adventure trips, we cover it all.",
-      "Each package includes carefully selected accommodations, local experiences, and guided tours to ensure you make the most of your journey.",
-      "We provide flexible itineraries that cater to your preferences, making your trip enjoyable and stress-free."
+      "At Global Getway, we are a team of certified immigration and travel consultants based in Dubai. We help individuals and families navigate the complexities of travel and immigration documentation with ease.",
+      "Our role is to guide, educate, and assist clients in understanding official requirements and preparing the necessary documents for submission to the appropriate authorities.",
     ]
   },
   {
     id: 2,
-    type: "Travel Visa",
-    heading: "Visa Made Simple",
-    subHeading: "Hassle-free visa assistance for any destination",
+    type: "Our Services",
+    heading: "We provide personalized consultancy and support",
     images: [
       visa1,
       visa2,
       visa3
     ],
     paragraphs: [
-      "We simplify the visa application process so you can focus on planning your trip. Our experts handle all documentation and submissions for you.",
-      "From eligibility checks to final approvals, we provide end-to-end assistance to maximize your chances of success.",
-      "Express and urgent processing options are available for selected countries, ensuring your travel plans stay on schedule."
+      "Our Tourist Visa Guidance helps you learn about the process, timelines, and documentation. Along with that, our Work Visa Consultation helps you understand eligibility and paperwork requirements.",
+      "We also provide Visa Extension Support, offering guidance for preparing extension applications. Plus, our Travel Documentation Advisory helps with paperwork and official procedures."
     ]
   }
 ];

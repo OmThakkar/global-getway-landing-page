@@ -49,7 +49,7 @@ const Testimonials = () => {
   );
 
   return (
-    <section className="bg-primary-50/50" id="testimonials">
+    <section id="testimonials">
       <div className="section-container">
         <SectionHeader
           subheading="Testimonials"

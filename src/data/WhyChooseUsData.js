@@ -2,33 +2,38 @@
 export const WhyChooseUsData = [
     {
       icon: "zthzhvlr", 
-      title: "10,000+ Tourist Visas Approved",
-      description: "Thousands of happy travelers trust us for fast, secure, and transparent service.",
+      title: "Trusted by Thousands",
+      description: "Travelers trust us for fast and transparent service.",
     },
     {
       icon: "rcuovkuy",
-      title: "End-to-End Assistance",
-      description: "From documentation to appointment booking, we handle everything for you.",
+      title: "Personalized Support",
+      description: "Tailored consultation for every client.",
     },
     {
       icon: "ugzybkbe",
-      title: "Free Eligibility Check",
-      description: "Our consultants will assess your application before submission to maximize approval chances.",
+      title: "Transparent Process",
+      description: "Clear guidance without hidden fees.",
     },
-    {
-      icon: "eaegfqtv",
-      title: "Affordable Service Packages",
-      description: "No hidden charges — clear pricing for every country.",
-    },
+    // {
+    //   icon: "eaegfqtv",
+    //   title: "Affordable Service Packages",
+    //   description: "No hidden charges — clear pricing for every country.",
+    // },
     {
       icon: "ucbznuay",
-      title: "Experienced Visa Experts",
-      description: "Professional consultants with years of experience in international travel documentation.",
+      title: "Experienced Consultants",
+      description: "10+ years in visa & immigration advisory.",
     },
     {
       icon: "xbajemyt",
-      title: "Express & Urgent Processing Available",
-      description: "Get your tourist visa processed faster with our express support (for selected countries).",
+      title: "Fast Assistance",
+      description: "Get professional help when you need it most.",
     },
+    {
+      icon: "mgrvlmou",
+      title: "Dubai-Based Office",
+      description: " Trusted by individuals and businesses across UAE.",
+    }
   ];
   

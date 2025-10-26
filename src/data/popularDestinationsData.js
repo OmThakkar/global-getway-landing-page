@@ -37,18 +37,18 @@ export const popularDestinationsData = [
       image: dubaiMarina,
       description: "Vibrant waterfront with modern skyline, yacht cruises, and Marina Walk cafes."
     },
-    {
-      id: 5,
-      title: "Jumeirah Mosque",
-      image: jumeirahMosque,
-      description: "Beautiful mosque open to all for guided tours promoting cultural understanding."
-    },
-    {
-      id: 6,
-      title: "JBR Beach",
-      image: jbrBeach,
-      description: "Beachfront area with shops, dining, and water sports. Offers views of Ain Dubai observation wheel."
-    },
+    // {
+    //   id: 5,
+    //   title: "Jumeirah Mosque",
+    //   image: jumeirahMosque,
+    //   description: "Beautiful mosque open to all for guided tours promoting cultural understanding."
+    // },
+    // {
+    //   id: 6,
+    //   title: "JBR Beach",
+    //   image: jbrBeach,
+    //   description: "Beachfront area with shops, dining, and water sports. Offers views of Ain Dubai observation wheel."
+    // },
     {
       id: 7,
       title: "Desert Safari",
@@ -61,34 +61,34 @@ export const popularDestinationsData = [
       image: dubaiFrame,
       description: "Architectural landmark framing old and new Dubai with a glass bridge at the top."
     },
-    {
-      id: 9,
-      title: "Al Fahidi Historical District",
-      image: alFahidiHistoricalDistrict,
-      description: "Traditional area showcasing Dubai's heritage with museums and art galleries."
-    },
-    {
-      id: 10,
-      title: "Dubai Creek",
-      image: dubaiCreek,
-      description: "Historic waterway dividing old and new Dubai. Take Abra rides and visit Gold & Spice Souks."
-    },
-    {
-      id: 11,
-      title: "IMG Worlds of Adventure",
-      image: imgWorldsWorldOfAdventure,
-      description: "Largest indoor theme park featuring Marvel, Cartoon Network, and dinosaur zones."
-    },
-    {
-      id: 12,
-      title: "Ski Dubai",
-      image: skiDubai,
-      description: "Indoor snow park with skiing, snowboarding, and penguin encounters at Mall of the Emirates."
-    },
-    {
-      id: 13,
-      title: "Global Village",
-      image: globalVillage,
-      description: "Seasonal multicultural park with food, shopping, and culture from 90+ countries (Oct–Apr)."
-    }
+    // {
+    //   id: 9,
+    //   title: "Al Fahidi Historical District",
+    //   image: alFahidiHistoricalDistrict,
+    //   description: "Traditional area showcasing Dubai's heritage with museums and art galleries."
+    // },
+    // {
+    //   id: 10,
+    //   title: "Dubai Creek",
+    //   image: dubaiCreek,
+    //   description: "Historic waterway dividing old and new Dubai. Take Abra rides and visit Gold & Spice Souks."
+    // },
+    // {
+    //   id: 11,
+    //   title: "IMG Worlds of Adventure",
+    //   image: imgWorldsWorldOfAdventure,
+    //   description: "Largest indoor theme park featuring Marvel, Cartoon Network, and dinosaur zones."
+    // },
+    // {
+    //   id: 12,
+    //   title: "Ski Dubai",
+    //   image: skiDubai,
+    //   description: "Indoor snow park with skiing, snowboarding, and penguin encounters at Mall of the Emirates."
+    // },
+    // {
+    //   id: 13,
+    //   title: "Global Village",
+    //   image: globalVillage,
+    //   description: "Seasonal multicultural park with food, shopping, and culture from 90+ countries (Oct–Apr)."
+    // }
   ];
